@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [Qlix-dev] Qlix Crashes
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/qlix-dev/2008-July/index.html" >
+   <LINK REL="made" HREF="mailto:qlix-dev%40lists.berlios.de?Subject=Re%3A%20%5BQlix-dev%5D%20Qlix%20Crashes&In-Reply-To=%3C48857286.9020004%40gmail.com%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[Qlix-dev] Qlix Crashes</H1>
+    <B>Gilbert Mendoza</B> 
+    <A HREF="mailto:qlix-dev%40lists.berlios.de?Subject=Re%3A%20%5BQlix-dev%5D%20Qlix%20Crashes&In-Reply-To=%3C48857286.9020004%40gmail.com%3E"
+       TITLE="[Qlix-dev] Qlix Crashes">gmendoza at gmail.com
+       </A><BR>
+    <I>Tue Jul 22 07:39:18 CEST 2008</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#0">[ date ]</a>
+              <a href="thread.html#0">[ thread ]</a>
+              <a href="subject.html#0">[ subject ]</a>
+              <a href="author.html#0">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>FYI... Upon opening qlix with MTP device connected, it crashes.
+
+Creative Zen 32G SSD... works with mtp-tools, and other apps such as
+Gnomad2, etc.
+
+qlix version: 0.2.4-0ubuntu-1~ppa1
+mtp-tools: 0.2.6.1-2ubuntu1
+libmtp7: 0.2.6.1-2ubuntu1
+
+
+$ qlix
+PTP: Opening session
+Device count &gt; 0
+WARNING: LIBMTP_Get_Filelisting() is deprecated.
+WARNING: please update your code to use
+LIBMTP_Get_Filelisting_With_Callback()
+WARNING: LIBMTP_Get_Tracklisting() is deprecated.
+WARNING: please update your code to use
+LIBMTP_Get_Tracklisting_With_Callback()
+Adding track, setting row index to: 0Adding track, setting row index to:
+0Adding track, setting row index to: 0Adding track, setting row index
+to: 0Adding track, setting row index to: 0Adding track, setting row
+index to: 0Adding track, setting row index to: 0Adding track, setting
+row index to: 0Adding track, setting row index to: 0Adding track,
+setting row index to: 0Adding track, setting row index to: 0Adding
+track, setting row index to: 0Adding track, setting row index to:
+0Adding track, setting row index to: 0Adding track, setting row index
+to: 0Adding track, setting row index to: 0Adding track, setting row
+index to: 0Adding track, setting row index to: 0Adding track, setting
+row index to: 0Adding track, setting row index to: 0Adding track,
+setting row index to: 0Adding track, setting row index to: 0Adding
+track, setting row index to: 0Adding track, setting row index to:
+0Adding track, setting row index to: 0Adding track, setting row index
+to: 0Adding track, setting row index to: 0Adding track, setting
+rowASSERT: &quot;model-&gt;parent(childIndex) == topIndex&quot; in file
+modeltest/modeltest.cpp, line 249
+ index to: 0Adding track, setting row index to: 0Adding track, setting
+row index to: 0Adding track, setting row index to: 0Adding track,
+setting row index to: 0Adding track, setting row index to: 0Adding
+track, setting row index to: 0Adding track, setting row index to:
+0Adding track, setting row index to: 0Adding track, setting row index
+to: 0Adding track, setting row index to: 0Adding track, setting row
+index to: 0Adding track, setting row index to: 0Adding track, setting
+row index to: 0Adding track, setting row index to: 0Adding track,
+setting row index to: 0Adding track, setting row index to: 0Adding
+track, setting row index to: 0Adding track, setting row index to:
+0Adding track, setting row index to: 0Adding track, setting row index
+to: 0Adding track, setting row index to: 0PTP: Closing session
+Ouch! - Qlix received signal 6
+QObject::killTimers: timers cannot be stopped from another thread
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#0">[ date ]</a>
+              <a href="thread.html#0">[ thread ]</a>
+              <a href="subject.html#0">[ subject ]</a>
+              <a href="author.html#0">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/qlix-dev">More information about the Qlix-dev
+mailing list</a><br>
+</body></html>
